@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://www.w3.org/2001/12/soap-envelope" SOAP-ENV:encodingStyle="http://www.w3.org/2001/12/soap-encoding">
+  <SOAP-ENV:Body>
+    <Event>
+      <eventid>ID1</eventid>
+      <tweet>
+        <text>This coffee is delicious!</text>
+        <location>
+          <long>115.875049</long>
+          <lat>-32.050916</lat>
+        </location>
+        <datetimestamp>22/09/2018 9:34:07 PM</datetimestamp>
+      </tweet>
+    </Event>
+    <Event>
+      <eventid>ID2</eventid>
+      <facebook-status-update>
+        <text>This is some status update in my day</text>
+        <location>
+          <long>115.956724</long>
+          <lat>-32.068956</lat>
+        </location>
+        <datetimestamp>22/09/2018 9:34:07 PM</datetimestamp>
+        <facebookuri>http://somethingorother</facebookuri>
+      </facebook-status-update>
+    </Event>
+    <Event>
+      <eventid>ID3</eventid>
+      <photo>
+        <filepath>photos/architectural-design-architecture-buildings-1434580.jpg</filepath>
+        <location>
+          <long>115.806414</long>
+          <lat>-32.114912</lat>
+        </location>
+      </photo>
+    </Event>
+    <Event>
+      <eventid>ID4</eventid>
+      <video>
+        <filepath>videos/SampleVideo_1280x720_1mb.mp4</filepath>
+        <location>
+          <long>115.73023</long>
+          <lat>-32.283994</lat>
+        </location>
+        <start-time>
+          <datetimestamp>22/09/2018 9:34:07 PM</datetimestamp>
+        </start-time>
+        <end-time>
+          <datetimestamp>22/09/2018 9:34:07 PM</datetimestamp>
+        </end-time>
+      </video>
+    </Event>
+    <Event>
+      <eventid>ID5</eventid>
+      <tracklog>
+        <data>.</data>
+        <filepath>gpx/gpxsample1.gpx</filepath>
+        <start-time>
+          <datetimestamp>22/09/2018 9:34:07 PM</datetimestamp>
+        </start-time>
+        <end-time>
+          <datetimestamp>22/09/2018 9:34:07 PM</datetimestamp>
+        </end-time>
+        <location>
+          <long>121.633094195276</long>
+          <lat>25.0633487664163</lat>
+        </location>
+      </tracklog>
+    </Event>
+    <Event>
+      <eventid>00000000-0000-0000-0000-000000000000</eventid>
+      <tweet>
+        <text>Having a great time in Denham</text>
+        <location>
+          <long>113.545074462891</long>
+          <lat>-25.9308771209218</lat>
+        </location>
+        <datetimestamp>22/09/2018 10:46:25 PM</datetimestamp>
+      </tweet>
+    </Event>
+    <Event>
+      <eventid>ID6</eventid>
+      <tracklog>
+        <data>.</data>
+        <filepath>gpx/gpxsample2.gpx</filepath>
+        <start-time>
+          <datetimestamp>22/09/2018 9:34:07 PM</datetimestamp>
+        </start-time>
+        <end-time>
+          <datetimestamp>22/09/2018 9:34:07 PM</datetimestamp>
+        </end-time>
+        <location>
+          <long>-121.7295456</long>
+          <lat>45.4431641</lat>
+        </location>
+      </tracklog>
+    </Event>
+    <Event>
+      <eventid>bc83f10d-3d25-4c9c-bc79-b51d889a72ae</eventid>
+      <facebook-status-update>
+        <text>Saw some beautiful dolphins at shell beach</text>
+        <location>
+          <long>113.721499443054</long>
+          <lat>-25.7977274609124</lat>
+        </location>
+        <datetimestamp>22/09/2018 10:49:47 PM</datetimestamp>
+        <facebookuri></facebookuri>
+      </facebook-status-update>
+    </Event>
+    <Event>
+      <eventid>24de340b-4527-4d88-ad8d-0a898f70ea9b</eventid>
+      <tweet>
+        <text>It's great walking along the river here, so peaceful</text>
+        <location>
+          <long>115.785555839539</long>
+          <lat>-32.0184832144399</lat>
+        </location>
+        <datetimestamp>26/09/2018 5:46:44 PM</datetimestamp>
+      </tweet>
+    </Event>
+    <Event>
+      <eventid>83a4d9cc-d719-49e0-9cb9-12c85b857f82</eventid>
+      <photo>
+        <filepath>photos\photo-perth-city-scape-elizabeth-quay (1).jpg</filepath>
+        <location>
+          <long>115.855711698532</long>
+          <lat>-31.9593535735654</lat>
+        </location>
+      </photo>
+    </Event>
+    <Event>
+      <eventid>d34af81d-2fcd-4b58-b96f-cc3cf710d925</eventid>
+      <friendmeeting>
+        <text>Debbie</text>
+        <location>
+          <long>115.742093324661</long>
+          <lat>-32.0580636482507</lat>
+        </location>
+        <datetimestamp>26/09/2018 6:09:29 PM</datetimestamp>
+      </friendmeeting>
+    </Event>
+    <Event>
+      <eventid>6f8d1fa5-8922-4de6-b7f5-ab973f0db7f7</eventid>
+      <friendmeeting>
+        <text>Sam</text>
+        <location>
+          <long>115.728253126144</long>
+          <lat>-32.2755858347998</lat>
+        </location>
+        <datetimestamp>26/09/2018 6:09:52 PM</datetimestamp>
+      </friendmeeting>
+    </Event>
+    <Event>
+      <eventid>6130f7a4-afa1-4ad6-b018-cbf65390068a</eventid>
+      <facebook-status-update>
+        <text>Off to sydney for some well needed rest!</text>
+        <location>
+          <long>115.959899425507</long>
+          <lat>-31.9336078134581</lat>
+        </location>
+        <datetimestamp>26/09/2018 6:10:18 PM</datetimestamp>
+        <facebookuri></facebookuri>
+      </facebook-status-update>
+    </Event>
+    <Event>
+      <eventid>b4141d8f-3988-46ba-bd06-e9f937e55f02</eventid>
+      <facebook-status-update>
+        <text>Bali here I come</text>
+        <location>
+          <long>115.974168777466</long>
+          <lat>-31.940709556839</lat>
+        </location>
+        <datetimestamp>26/09/2018 6:10:40 PM</datetimestamp>
+        <facebookuri></facebookuri>
+      </facebook-status-update>
+    </Event>
+    <Event>
+      <eventid>e8c7c276-5db1-4a9e-9e4f-819bfdce8f6a</eventid>
+      <tweet>
+        <text>Check out this chocolate from the lindt cafe, so delicious</text>
+        <location>
+          <long>151.20942056179</long>
+          <lat>-33.8668343977813</lat>
+        </location>
+        <datetimestamp>26/09/2018 6:11:21 PM</datetimestamp>
+      </tweet>
+    </Event>
+    <Event>
+      <eventid>23334c03-5e39-41a1-ad4e-3db9ebbcd8fe</eventid>
+      <facebook-status-update>
+        <text>Check out these pics of the sydney harbour bridge, cliche I know!</text>
+        <location>
+          <long>151.232128143311</long>
+          <lat>-33.8540942522571</lat>
+        </location>
+        <datetimestamp>26/09/2018 6:11:42 PM</datetimestamp>
+        <facebookuri></facebookuri>
+      </facebook-status-update>
+    </Event>
+    <Event>
+      <eventid>9f472e37-451a-49f9-a257-7178f6c96d41</eventid>
+      <tweet>
+        <text>It's so nice to find this kind of space in the middle of Sydney and the views are amazing.</text>
+        <location>
+          <long>151.216839551926</long>
+          <lat>-33.8625403792795</lat>
+        </location>
+        <datetimestamp>26/09/2018 6:12:07 PM</datetimestamp>
+      </tweet>
+    </Event>
+    <Event>
+      <eventid>065185fa-9c48-4d38-ac66-7c76d6f1522d</eventid>
+      <facebook-status-update>
+        <text>Getting ma drink on</text>
+        <location>
+          <long>115.2332675457</long>
+          <lat>-8.79815124087105</lat>
+        </location>
+        <datetimestamp>26/09/2018 6:12:51 PM</datetimestamp>
+        <facebookuri></facebookuri>
+      </facebook-status-update>
+    </Event>
+    <Event>
+      <eventid>b430d87c-b8fa-484f-8106-dc5027bcc850</eventid>
+      <facebook-status-update>
+        <text>Catching up with friends in Albany, going to check out the whaling mueseum next</text>
+        <location>
+          <long>117.897419929504</long>
+          <lat>-35.0254981588326</lat>
+        </location>
+        <datetimestamp>26/09/2018 6:14:03 PM</datetimestamp>
+        <facebookuri></facebookuri>
+      </facebook-status-update>
+    </Event>
+    <Event>
+      <eventid>715786ac-4cb0-4869-b4db-46c43eaae22c</eventid>
+      <tweet>
+        <text>Heading off now to visit Australia Zoo, looking forward to seeing the birds.</text>
+        <location>
+          <long>153.091821670532</long>
+          <lat>-26.6529052677535</lat>
+        </location>
+        <datetimestamp>26/09/2018 6:15:36 PM</datetimestamp>
+      </tweet>
+    </Event>
+    <Event>
+      <eventid>4ebf081c-c625-41cd-9c26-d4cd5902eb02</eventid>
+      <friendmeeting>
+        <text>Steff</text>
+        <location>
+          <long>115.821197032928</long>
+          <lat>-32.3423881359368</lat>
+        </location>
+        <datetimestamp>26/09/2018 10:01:43 PM</datetimestamp>
+      </friendmeeting>
+    </Event>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
